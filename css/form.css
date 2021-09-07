@@ -5,7 +5,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background: linear-gradient(180deg, rgba(10,64,6,1) 0%, rgba(224,224,224,1) 50%);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(224,224,224,1) 50%);
 	position: relative;
 	z-index: 1;
 }
