@@ -693,15 +693,14 @@ details > summary::after {
 	height: 1em;
 	transition: .5s ease;
 	z-index: 1;
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position-x: right;
+padding-left: 50px;
 }
-details > summary::after {
-	content: '';
-	background: url(../img/right-arrow.svg);
-	width: 1em;
-	height: 1em;
-	transition: .5s ease;
-}
+
 details[open] > summary::after {
+	background-position-x: center;
 	transform: rotate(90deg);
 }
 details > p {
