@@ -696,7 +696,7 @@ details > summary::after {
 	background-size: 15px;
 	background-repeat: no-repeat;
 	background-position-x: right;
-padding-left: 50px;
+  	padding-left: 80px;
 }
 
 details[open] > summary::after {
