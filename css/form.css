@@ -5,9 +5,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background-image: url(../img/bg@300x.png);
-	background-size: cover;
-	background-position: top center;
+	background: linear-gradient(180deg, rgba(10,64,6,1) 0%, rgba(224,224,224,1) 50%);
 	position: relative;
 	z-index: 1;
 }
