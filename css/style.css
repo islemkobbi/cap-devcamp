@@ -283,7 +283,7 @@ p {
 }
 #about .col-leftt {
 	width: 380px;
-	height: 450px;
+	height: 380px;
 }
 #about .col-right {
 	width: 100%;
@@ -494,7 +494,7 @@ opacity: 1;
 	}
 	#about .col-leftt {
 		width: 600px;
-		height: 400px;
+		height: 3500px;
 		padding-left: 60px;
 	}
 	/* #about .about .col-left .about-img::after {
