@@ -72,10 +72,10 @@
   <div id=bg_photo >
   <!-- Service Section -->
   <br><br><br><br>
-    <section id="about" style="background-color: rgba(0, 0, 0, 0.281); max-height: 400; border">
+    <section id="about" style="background-color: rgba(255, 255, 255, 0.781); max-height: 400;">
       <div class="aboutt container">
         <div class="col-leftt">
-          <div class="about-img" s>
+          <div class="about-img">
             <img src="./img/UIUX.jpg" alt="img">
           </div>
         </div>
@@ -83,7 +83,7 @@
           <h1 class="section-title"><span>À</span> venir</h1>
           <p>Formation : User Interface and User Experience (UI/UX). <br>
           Formateur : Hmimi Chioukh. <br>
-          <small>20 septembre 2021 à 17h00. <span id="formation"></span> </small>
+          <small>20 septembre 2021 à 17h00. <b style="color: rgb(255, 0, 0);" id="formation"></b> </small>
           </p>
           <a href="https://meet.google.com/mbr-ebnn-gae" target="blanc" style="cursor:pointer; margin-left: 0px; margin-top: 0px;" class="cta">ENTRER</a>
           <p style="font-size: small; color: rgb(97, 97, 97);" >
@@ -114,14 +114,15 @@
               // Display the result in the element with id="demo"
               document.getElementById("formation").innerHTML = "(temps restant: " + days + "d " + hours + "h "
                 + minutes + "m " + seconds + "s )";
-
+              document.getElementById("formation").style = "color: rgb(97, 97, 97)";
               // If the count down is finished, write some text
               if (distance < 0) {
                 clearInterval(x);
                 document.getElementById("formation").innerHTML = "(La formation se déroule maintenant)";
+                document.getElementById("formation").style = "color: rgb(200, 00, 00)";
               }
             }, 1000);
-          </script
+          </script>
         </div>
     
     
