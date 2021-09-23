@@ -76,24 +76,27 @@
       <div class="aboutt container">
         <div class="col-leftt">
           <div class="about-img">
-            <img src="./img/bdd.jpg" alt="img">
+            <img src="./img/test-logo53.png" alt="img">
           </div>
         </div>
         <div class="col-rightt">
           <h1 class="section-title"><span>À</span> venir</h1>
-          <p>Formation : Gestion de bases de données. <br>
-          Formateur : Anis Souames. <br>
+          <p> L'ouverture de l'évènement
           <small>22 septembre 2021 à 17h00. <b style="color: rgb(255, 0, 0);" id="formation"></b> </small>
           </p>
-          <a href="https://meet.google.com/csp-osfr-pqs" target="blanc" style="cursor:pointer; margin-left: 0px; margin-top: 0px;" class="cta">ENTRER</a>
+          <a href="meet.google.com/rrg-hgqm-mhn" target="blanc" style="cursor:pointer; margin-left: 0px; margin-top: 0px;" class="cta">ENTRER</a>
           <p style="font-size: small; color: rgb(97, 97, 97); line-height: 2rem;" >
-            suivant : <br>
-            L'ouverture de l'évènement<br>
+            planning : <br><br>
+            &nbsp &nbsp &nbsp- Présentation du CAP.<br>
+            &nbsp &nbsp &nbsp- Présentation de l’événement ainsi que de ses sous-thèmes.<br>
+            &nbsp &nbsp &nbsp- Présentation des sponsors.<br>
+            &nbsp &nbsp &nbsp- Attribution des sous-thèmes aux équipes après tirage.<br>
+            &nbsp &nbsp &nbsp- Lancement du Hackathon.<br>
             <small>23 septembre 2021 à 14h00.</small>
           </p>
           <script>
             // Set the date we're counting down to
-            var countDownDate = new Date("sep 22, 2021 17:00:00").getTime();
+            var countDownDate = new Date("sep 23, 2021 14:00:00").getTime();
 
             // Update the count down every 1 second
             var x = setInterval(function () {
@@ -115,9 +118,9 @@
                 + minutes + "m " + seconds + "s )";
               document.getElementById("formation").style = "color: rgb(97, 97, 97)";
               // If the count down is finished, write some text
-              if (distance < 0) {
+              if (distance < 0){
                 clearInterval(x);
-                document.getElementById("formation").innerHTML = "(La formation se déroule maintenant)";
+                document.getElementById("formation").innerHTML = "(le meet se déroule maintenant)";
                 document.getElementById("formation").style = "color: rgb(200, 00, 00)";
               }
             }, 1000);
